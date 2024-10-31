@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ms+Madi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height:100vh; 
+}
+.container{
+    width: 500px;
+   position: relative;
+   height: 100px;
+   
+}
+
+.main{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    background-color: slateblue;
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 20px 30px 20px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+   position: relative;
+  
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -60px;
+    object-fit: cover;
+}
+p{
+    font-size: 15px;
+  font-weight: 400;
+  font-family:  cursive;
+}
+#btn{
+    background-color:#fff;
+    border: none;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
